@@ -7,50 +7,31 @@ public class Deck {
     Deck() {
         rand = new Random();
         cards = new Card[78];
-        cards[0] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[1] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[2] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[3] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[4] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[5] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[6] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[7] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[8] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[9] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[10] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[11] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[12] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[13] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[14] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[15] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[16] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[17] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[18] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[19] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[20] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[21] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
+        //Major Arcana
+        cards[0] = new Card("The Fool", "Innocence, New Beginnings, Wonder, Foolishness");
+        cards[1] = new Card("The Magician", "Willpower, Creation, Mastery, Adaptation");
+        cards[2] = new Card("The High Priestess", "Inner Voice, Intuition, Divine Truth, Wisdom, Unconscious");
+        cards[3] = new Card("The Empress", "Beauty, Fertility, Nurturing, Luxury, Creativity");
+        cards[4] = new Card("The Emperor", "Structure, Ambition, Authority, Rationality");
+        cards[5] = new Card("The Hierophant", "Tradition, Legacy, Society, Organized Religion");
+        cards[6] = new Card("The Lovers", "Choices, Union, Love, Relationship");
+        cards[7] = new Card("The Chariot", "Self-Control, Discipline, Success");
+        cards[8] = new Card("Strength", "Courage, Inner Strength, Conviction, Compassion");
+        cards[9] = new Card("The Hermit", "Contemplation, Solitude, Insight, Awareness");
+        cards[10] = new Card("The Wheel of Fortune", "Fate, Karma, Destiny, Fortune, Cycles");
+        cards[11] = new Card("Justice", "Truth, Fairness, Law, Clarity, Cause and Effect");
+        cards[12] = new Card("The Hanged Man", "Sacrifice, Suspension, Release, Martyrdom, New Perspective");
+        cards[13] = new Card("Death", "End of Cycle, New Beginnings, Change, Metamorphosis");
+        cards[14] = new Card("Temperance", "Middle Path, Patience, Finding Meaning");
+        cards[15] = new Card("The Devil", "Materialism, Playfulness, Pleasure, Addiction, Self-Destruction");
+        cards[16] = new Card("The Tower", "Upheaval, Disaster, Foundational Shift");
+        cards[17] = new Card("The Star", "Hope, Faith, Rejuvenation, Rebuilding, Healing");
+        cards[18] = new Card("The Moon", "Unconscious, Illusions, Intuition, Lack of Clarity");
+        cards[19] = new Card("The Sun", "Joy, Success, Celebration, Pleasure");
+        cards[20] = new Card("Judgement", "Reflection, Reckoning, Awakening");
+        cards[21] = new Card("The World", "Fulfillment, Harmony, Completion");
+        
+        
         cards[22] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
                 + "foolishness, boldness, carelessness, feeling carefree");
         cards[23] = new Card("The Fool", "innocence, new beginnings, blind faith, a childlike sense of wonder, "

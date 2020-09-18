@@ -9,7 +9,7 @@ public class Card {
     }
 
     public void display() {
-        System.out.println(title);
-        System.out.println(keywords);
+        System.out.println("Card: " + title);
+        System.out.println("Keywords: " + keywords);
     }
 }
