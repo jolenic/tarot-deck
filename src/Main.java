@@ -10,7 +10,8 @@ public class Main {
         int numCards = 1;
 
         while (nextCard == 1) {
-            System.out.println("Please think of a question you would like to have answered.");
+            System.out.println("Please think of a question you would like to have answered:");
+            input.nextLine();
             System.out.println("How many cards shall I pull for you?");
             numCards = input.nextInt();
             for (int k = 0; k < numCards; k++) {
