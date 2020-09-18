@@ -32,124 +32,68 @@ public class Deck {
         cards[21] = new Card("The World", "Fulfillment, Harmony, Completion");
         
         //Suit of Cups
-        cards[22] = new Card("Ace of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[23] = new Card("Two of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[24] = new Card("Three of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[25] = new Card("Four of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[26] = new Card("Five of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[27] = new Card("Six of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[28] = new Card("Seven of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[29] = new Card("Eight of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[30] = new Card("Nine of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[31] = new Card("Ten of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[32] = new Card("Page of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[33] = new Card("Knight of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[34] = new Card("Queen of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[35] = new Card("King of Cups", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
+        cards[22] = new Card("Ace of Cups", "New Feelings, Spirituality, Intuition");
+        cards[23] = new Card("Two of Cups", "Unity, Partnership, Connection");
+        cards[24] = new Card("Three of Cups", "Friendship, Community, Happiness");
+        cards[25] = new Card("Four of Cups", "Apathy, Contemplation, Disconnection");
+        cards[26] = new Card("Five of Cups", "Loss, Grief, Disappointment, Mourning");
+        cards[27] = new Card("Six of Cups", "Familiarity, Memories, Healing, Restoration");
+        cards[28] = new Card("Seven of Cups", "Searching for Purporse, Choices, Daydreaming");
+        cards[29] = new Card("Eight of Cups", "Walking Away, Disillusionment, Leaving Something Behind");
+        cards[30] = new Card("Nine of Cups", "Satisfaction, Luxury, Emotional Stability");
+        cards[31] = new Card("Ten of Cups", "Inner Happiness, Fulfillment, Dreams Coming True");
+        cards[32] = new Card("Page of Cups", "Happy Surprise, Dreamer, Sensitiviry");
+        cards[33] = new Card("Knight of Cups", "Idealistic, Romantic, Following One's Heart");
+        cards[34] = new Card("Queen of Cups", "Compassion, Calm, Comfort");
+        cards[35] = new Card("King of Cups", "Emotional Control, Balance Between Heart and Head");
         
         //Suit of Pentacles
-        cards[36] = new Card("Ace of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[37] = new Card("Two of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[38] = new Card("Three of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[39] = new Card("Four of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[40] = new Card("Five of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[41] = new Card("Six of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[42] = new Card("Seven of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[43] = new Card("Eight of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[44] = new Card("Nine of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[45] = new Card("Ten of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[46] = new Card("Page of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[47] = new Card("Knight of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[48] = new Card("Queen of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[49] = new Card("King of Pentacles", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
+        cards[36] = new Card("Ace of Pentacles", "Opportunity, Prosperity, New Venture");
+        cards[37] = new Card("Two of Pentacles", "Balancing Decisions, Priorities, Adaptation");
+        cards[38] = new Card("Three of Pentacles", "Teamwork, Collaboration, Building Together");
+        cards[39] = new Card("Four of Pentacles", "Conservation, Security, Frugality");
+        cards[40] = new Card("Five of Pentacles", "Need, Poverty, Insecurity, Low Resources");
+        cards[41] = new Card("Six of Pentacles", "Charity, Generosity, Sharing");
+        cards[42] = new Card("Seven of Pentacles", "Hard Work, Perserverance, Diligence");
+        cards[43] = new Card("Eight of Pentacles", "Diligence, Passion, High Standards");
+        cards[44] = new Card("Nine of Pentacles", "Fruits of Labour, Reckless Spending, Rewards");
+        cards[45] = new Card("Ten of Pentacles", "Legacy, Inheritance, Culmination");
+        cards[46] = new Card("Page of Pentacles", "Ambition, Desire, Diligence, Craving New Venture");
+        cards[47] = new Card("Knight of Pentacles", "Efficiency, Hard Work, Responsibility");
+        cards[48] = new Card("Queen of Pentacles", "Practicality, Creature Comforts, Security");
+        cards[49] = new Card("King of Pentacles", "Abundance, Prosperity, Provider, Generosity");
         
         //Suit of Wands
-        cards[50] = new Card("Ace of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[51] = new Card("Two of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[52] = new Card("Three of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[53] = new Card("Four of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[54] = new Card("Five of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[55] = new Card("Six of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[56] = new Card("Seven of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[57] = new Card("Eight of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[58] = new Card("Nine of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[59] = new Card("Ten of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[60] = new Card("Page of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[61] = new Card("Knight of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[62] = new Card("Queen of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[63] = new Card("King of Wands", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
+        cards[50] = new Card("Ace of Wands", "Creation, Willpower, Inspiration, Desire");
+        cards[51] = new Card("Two of Wands", "Planning, Making Decisions, Leaving Home");
+        cards[52] = new Card("Three of Wands", "Looking Ahead, Expansion, Rapid Growth");
+        cards[53] = new Card("Four of Wands", "Community, Home, Celebration");
+        cards[54] = new Card("Five of Wands", "Competition, Conflict, Reality");
+        cards[55] = new Card("Six of Wands", "Victory, Success, Public Reward");
+        cards[56] = new Card("Seven of Wands", "Perserverance, Mounting A Defence, Maintaining Control");
+        cards[57] = new Card("Eight of Wands", "Rapid Action, Monument, Quick Decisions");
+        cards[58] = new Card("Nine of Wands", "Resilience, Grit, Taking Last Stand");
+        cards[59] = new Card("Ten of Wands", "Accomplishment, Responsibility, Burden");
+        cards[60] = new Card("Page of Wands", "Exploration, Excitement, Freedom");
+        cards[61] = new Card("Knight of Wands", "Action, Adventure, Fearlessness");
+        cards[62] = new Card("Queen of Wands", "Courage, Determination, Passion, Joy");
+        cards[63] = new Card("King of Wands", "Big Picture, Leader, Overcoming Challenges");
         
         //Suit of Swords
-        cards[64] = new Card("Ace of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[65] = new Card("Two of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[66] = new Card("Three of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[67] = new Card("Four of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[68] = new Card("Five of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[69] = new Card("Six of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[70] = new Card("Seven of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[71] = new Card("Eight of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[72] = new Card("Nine of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[73] = new Card("Ten of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[74] = new Card("Page of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[75] = new Card("Knight of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[76] = new Card("Queen of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");
-        cards[77] = new Card("King of Swords", "innocence, new beginnings, blind faith, a childlike sense of wonder, "
-                + "foolishness, boldness, carelessness, feeling carefree");        
+        cards[64] = new Card("Ace of Swords", "Breakthrough, Clarity, Sharp Mind");
+        cards[65] = new Card("Two of Swords", "Difficult Choices, Indecision, Stalemate");
+        cards[66] = new Card("Three of Swords", "Heartbreak, Suffering, Grief");
+        cards[67] = new Card("Four of Swords", "Rest, Restoration, Contemplation");
+        cards[68] = new Card("Five of Swords", "Unbridled Ambition, Win At All Costs, Sneakiness");
+        cards[69] = new Card("Six of Swords", "Transition, Leaving Behind, Moving On");
+        cards[70] = new Card("Seven of Swords", "Deception, Trickery, Tactics and Strategy");
+        cards[71] = new Card("Eight of Swords", "Imprisonment, Entrapment, Self-Victimization");
+        cards[72] = new Card("Nine of Swords", "Anxiety, Hopelessness, Trauma");
+        cards[73] = new Card("Ten of Swords", "Failure, Collapse, Defeat, Backstabbing");
+        cards[74] = new Card("Page of Swords", "Curiosity, Restlessness, Mental Energy");
+        cards[75] = new Card("Knight of Swords", "Action, Impulsiveness, Defending Beliefs");
+        cards[76] = new Card("Queen of Swords", "Complexity, Perceptive, Clear Mindedness");
+        cards[77] = new Card("King of Swords", "Head Over Heart, Truth, Discipline");        
     }
     
     public void draw() {
