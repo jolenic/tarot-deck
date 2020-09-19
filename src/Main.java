@@ -28,29 +28,30 @@ public class Main {
                     System.out.println("Another question? (1 for yes, 2 for no)");
                     //technically anything other than 1 is a no but......
                     nextCard = input.nextInt();
+                    input.nextLine();
                     //Should validate that it's an int, but that's a job for later.  For now we /trust/.
                 }
                 break;
             case "S":
             case "s":
-                System.out.println("Just kidding you can't actually do that.");
-               /* int next = -1;
-                String story = null;
+                int next = -1;
+                String story = "";
                 System.out.println("Here's your starting prompt:");
                 
                 while (next != 0) {
                     tarotDeck.draw();
-                    story += input.nextLine();
+                    story += (input.nextLine() + "\n");
                     do {
                         System.out.println("Enter 1 for another prompt or 0 to end.");
                         next = input.nextInt();
+                        input.nextLine();
                     } while ((next != 1) && (next != 0));
                     if (next == 0) {
                         System.out.println("Thanks for playing!  Here's your final story:");
                         System.out.println(story);
                     }
                 }
-                */
+                
                 break;
             default:
                 System.out.println("You're not great at following simple directions, are you?");
